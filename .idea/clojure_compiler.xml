@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClojureCompilerSettings">
+    <option name="NS_TO_COMPILE" value="2" />
+    <option name="NAMESPACES">
+      <list>
+        <option value="net.clm.history.handler" />
+        <option value="net.clm.history.handler-test" />
+      </list>
+    </option>
+  </component>
+</project>

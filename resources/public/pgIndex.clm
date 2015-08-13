@@ -1,0 +1,39 @@
+<?php
+include_once("inc/xhtml1-trans.inc");
+?>
+<head>
+<!-- History of the World using Adobe's Spry framework -->
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<title>Dot Net II: History of the World: Browse</title>
+<!-- ALL STYLESHEETS HERE -->
+<link href="css/hcspry.css" rel="stylesheet" type="text/css" />
+<link href="css/menus.css" rel="stylesheet" type="text/css" />
+<link href="css/filter.css" rel="stylesheet" type="text/css" />
+<link href="css/wc3xhtml1.css" rel="stylesheet" type="text/css" />
+<!-- ALL JAVASCRIPT FILES HERE -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2614906-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<?php
+/* HTML fragment containing Collapsible Panel and Tab Menus
+ * used on every page */
+require_once("inc/HTMLHead.inc");
+?>
+   <?php
+   /* HTML fragment containing iframe from Dabble for Default View */
+   require_once("inc/divContent.inc");
+   ?>
+   </body>
+</html>
