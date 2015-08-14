@@ -78,9 +78,9 @@
       []
       [:ul
        [:li [:a {:shape "rect", :href "/", :title "Browse Events"} [:span "Browse"]]]
-       [:li [:a {:shape "rect", :href "add.php", :title "Add Events"} [:span "Add"]]]
-       [:li [:a {:shape "rect", :href "map.php", :title "Map Events"} [:span "Map"]]]
-       [:li [:a {:shape "rect", :href "cha.php", :title "Chart Events"} [:span "Chart"]]]
-       [:li [:a {:shape "rect", :href "doc.php", :title "Docs"} [:span "Learn"]]]
-       [:li [:a {:shape "rect", :href "clg.php", :title "Change Log"} [:span "Changes"]]]
-       [:li [:a {:shape "rect", :href "lnk.php", :title "Links"} [:span "Seek"]]]])
+       [:li [:a {:shape "rect", :href "/add", :title "Add Events"} [:span "Add"]]]
+       [:li [:a {:shape "rect", :href "/map", :title "Map Events"} [:span "Map"]]]
+       [:li [:a {:shape "rect", :href "/chart", :title "Chart Events"} [:span "Chart"]]]
+       [:li [:a {:shape "rect", :href "/learn", :title "Docs"} [:span "Learn"]]]
+       [:li [:a {:shape "rect", :href "changes", :title "Change Log"} [:span "Changes"]]]
+       [:li [:a {:shape "rect", :href "/seek", :title "Links"} [:span "Seek"]]]])

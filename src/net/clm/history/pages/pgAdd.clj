@@ -13,10 +13,10 @@
          [:body {:id "AddEvent"}
           [:h1 {:class "title"} "History of the World"]
           [:div {:id "tabsF"} (snippets/tabsf)]
-          [:div {:id "content"}
+          [:div {:id "contentForm"}
            [:iframe {:frameborder "0",
                      :marginheight "0",
                      :marginwidth "0",
-                     :src "https://docs.google.com/spreadsheet/pub?key=0AuW1vC5u5nOAdDhvNDQ1X0c1UGptaFlSclpzTDlaRFE&single=true&gid=0&output=html",
+                     :src "https://docs.google.com/spreadsheet/embeddedform?formkey=dHU1SWpjQ1A2cUVkSlBWVC1vNGxzSWc6MA",
                      :width "100%",
-                     :height "1325" "Loading"}]]])))
+                     :height "1325"} "Loading"]]])))
