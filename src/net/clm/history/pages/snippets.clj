@@ -1,13 +1,47 @@
 (ns net.clm.history.pages.snippets
     (:require [hiccup.page :as hic]))
 
+(def CLMDEBUG 0)
+
 (defn cssfiles
-      "Snippet for CSS links depending on which page is loaded."
-      []
-      (hic/include-css "/css/hcspry.css"
-                       "/css/menus.css"
-                       "/css/filter.css"
-                       "/css/wc3xhtml1.css"))
+      "load sets of CSS files depending on which page is being served"
+      [pageName]
+      (condp = pageName
+             "index" (hic/include-css "/css/hcspry.css"
+                                      "/css/menus.css"
+                                      "/css/filter.css"
+                                      "/css/wc3xhtml1.css")
+             "add" (hic/include-css "/css/hcspry.css"
+                                    "/css/menus.css"
+                                    "/css/addform.css")
+             "map" (hic/include-css "/css/hcspry.css"
+                                    "/css/menus.css"
+                                    "/css/SpryCollapsiblePanel.css"
+                                    "/css/SpryAccordion.css")
+             "chart" (hic/include-css "/css/hcspry.css"
+                                      "/css/menus.css"
+                                      "/css/filter.css"
+                                      "/css/cha.css")
+             "learn" (hic/include-css "/css/hcspry.css"
+                                      "/css/menus.css"
+                                      "/css/filter.css"
+                                      "/css/wc3xhtml1.css"
+                                      "/css/doc.css")
+             "changes" (hic/include-css "/css/hcspry.css"
+                                        "/css/menus.css"
+                                        "/css/filter.css"
+                                        "/css/wc3xhtml1.css"
+                                        "/css/clg.css")
+             "seek" (hic/include-css "/css/hcspry.css"
+                                     "/css/menus.css"))
+      (println (str  "PRGMR. MSG: net.clm.history.pages.snippets.clj::(defn cssfiles [" pageName "]): unknown parameter or parameter not processed properly.")))
+
+(comment (defn cssfiles
+               "load sets of CSS files depending on which page is being served"
+               [pageName]
+               (hic/include-css "/css/hcspry.css" "/css/menus.css" "/css/filter.css" "/css/wc3xhtml1.css")))
+
+
 
 (defn ganalytics
       "Snippet for Google Analytics"
@@ -24,11 +58,13 @@
        })();"])
 
 (defn head
-      "Snippet for the <head> tag of the page"
-      [argTitle]
+      "Snippet for the <head> tag of the page."
+      [page argTitle]
+      (if (= CLMDEBUG 1)
+        (println page argTitle))
       [:head
        [:title argTitle]
-       (cssfiles)
+       (cssfiles page)
        (comment (ganalytics))])
 
 (defn noscript
@@ -48,4 +84,3 @@
        [:li [:a {:shape "rect", :href "doc.php", :title "Docs"} [:span "Learn"]]]
        [:li [:a {:shape "rect", :href "clg.php", :title "Change Log"} [:span "Changes"]]]
        [:li [:a {:shape "rect", :href "lnk.php", :title "Links"} [:span "Seek"]]]])
-

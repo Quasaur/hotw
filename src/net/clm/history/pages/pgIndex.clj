@@ -9,7 +9,7 @@
       []
       (hcore/html
         (hic/html5
-        (snippets/head "Dot Net II: History of the World: Browse")
+        (snippets/head "index" "Dot Net II: History of the World: Browse")
          [:body {}
           [:h1 {:class "title"} "History of the World"]
           [:div {:id "tabsF"} (snippets/tabsf)]
