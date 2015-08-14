@@ -33,8 +33,8 @@
                                         "/css/wc3xhtml1.css"
                                         "/css/clg.css")
              "seek" (hic/include-css "/css/hcspry.css"
-                                     "/css/menus.css"))
-      (println (str  "PRGMR. MSG: net.clm.history.pages.snippets.clj::(defn cssfiles [" pageName "]): unknown parameter or parameter not processed properly.")))
+                                     "/css/menus.css")
+             (println (str  "PRGMR. MSG: net.clm.history.pages.snippets.clj::(defn cssfiles [" pageName "]): unknown parameter or parameter not processed properly."))))
 
 (comment (defn cssfiles
                "load sets of CSS files depending on which page is being served"
