@@ -5,7 +5,8 @@
 
 
 (defn page
-      "Map Page for History of the World."
+      "Map Page for History of the World.
+      Argument(s): NONE"
       []
       (hcore/html
         (hic/html5

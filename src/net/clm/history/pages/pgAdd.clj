@@ -5,7 +5,8 @@
 
 
 (defn page
-      "Index Page for History of the World."
+      "Add Event Page for History of the World.
+      Argument(s): NONE"
       []
       (hcore/html
         (hic/html5
