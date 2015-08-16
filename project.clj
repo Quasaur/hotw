@@ -1,4 +1,4 @@
-(defproject net.clm.history "0.4.0-SNAPSHOT"
+(defproject net.clm.history "0.4.3-SNAPSHOT"
   :main net.clm.history.handler
   :description "A rewrite of my History of the World in Clojure"
   :url "http://history.clmitchell.net"
