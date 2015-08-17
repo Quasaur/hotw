@@ -1,6 +1,0 @@
-<!-- HTML fragment containing instructions for Browse/Suggested Events page -->
-<p class="helptext"><strong>Year: Gregorian.</strong> The modern calendar in use throughout most of the world today is the Gregorian calendar, named after the Pope who introduced it in 1585. It was not adopted in the United States until an act of the English Parliament made it law throughout the English Empire in 1752. Since that time most other countries have adopted the Gregorian calendar. The Gregorian calendar is used for most commerce throughout most of the world.</p>
-<p><strong>NOTE:</strong> There is a good chance that the year your submitted event took place exists in the database more than once (<a href="http://localhost:8082/hcspry/index.php?selTypes=&selNLL=Africa&txtSearch=&btnSubmit=Submit+Request#" target="_blank">Example</a>, page 3 of 5). You may use a decimal point (i.e. "2005.2") to place your event in the proper place relative to other events in the same year.</p>
-<input id="btnHelp" name="btnHelp" type="button" value="Original Helptext" onclick="btnHndlr();" />
-
-   
