@@ -1,5 +1,6 @@
-(defproject net.clm.history "0.8.1-SNAPSHOT"
+(defproject net.clm.history "0.8.2-SNAPSHOT"
   :main net.clm.history.handler
+  :aot [net.clm.history.handler]
   :description "A rewrite of my History of the World in Clojure"
   :url "http://history.clmitchell.net"
   :min-lein-version "2.0.0"
