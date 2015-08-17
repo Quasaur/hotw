@@ -10,38 +10,25 @@
       [pageName]
       (condp = pageName
              "index" (hic/include-css "/css/hcspry.css"
-                                      "/css/menus.css"
-                                      "/css/filter.css"
-                                      "/css/wc3xhtml1.css")
+                                      "/css/menus.css")
              "add" (hic/include-css "/css/hcspry.css"
                                     "/css/menus.css"
                                     "/css/addform.css")
              "map" (hic/include-css "/css/hcspry.css"
-                                    "/css/menus.css"
-                                    "/css/SpryCollapsiblePanel.css"
-                                    "/css/SpryAccordion.css")
+                                    "/css/menus.css")
              "chart" (hic/include-css "/css/hcspry.css"
                                       "/css/menus.css"
-                                      "/css/filter.css"
-                                      "/css/cha.css")
+                                      "/css/cha.css"
+                                      "/css/filter.css")
              "learn" (hic/include-css "/css/hcspry.css"
                                       "/css/menus.css"
-                                      "/css/filter.css"
-                                      "/css/wc3xhtml1.css"
                                       "/css/doc.css")
              "change" (hic/include-css "/css/hcspry.css"
                                         "/css/menus.css"
-                                        "/css/filter.css"
-                                        "/css/wc3xhtml1.css"
                                         "/css/clg.css")
              "seek" (hic/include-css "/css/hcspry.css"
                                      "/css/menus.css")
              (println (str  "PRGMR. MSG: net.clm.history.pages.snippets.clj::(defn cssfiles [" pageName "]): unknown parameter or parameter not processed properly."))))
-
-(comment (defn cssfiles
-               "load sets of CSS files depending on which page is being served"
-               [pageName]
-               (hic/include-css "/css/hcspry.css" "/css/menus.css" "/css/filter.css" "/css/wc3xhtml1.css")))
 
 
 
@@ -50,14 +37,14 @@
       Argument(s): NONE"
       []
       [:script {:type "text/javascript"}
-       "var _gaq = _gaq || [];\r\n
-       _gaq.push(['_setAccount', 'UA-2614906-8']);\r\n
-       _gaq.push(['_setDomainName', '.clmitchell.net']);\r\n
-       _gaq.push(['_trackPageview']);\r\n
-       (function() {\r\n
-       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\r\n
-       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n
-       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\r\n
+       "var _gaq = _gaq || [];
+       _gaq.push(['_setAccount', 'UA-2614906-8']);
+       _gaq.push(['_setDomainName', '.clmitchell.net']);
+       _gaq.push(['_trackPageview']);
+       (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
        })();"])
 
 (defn timelinejs
@@ -78,14 +65,7 @@
        [:title argTitle]
        (cssfiles page)
        (if (= page "chart") (timelinejs))
-       (comment (ganalytics))])
-
-(defn noscript
-      "Snippet for <noscript> tag.
-      Argument(s): NONE"
-      []
-      [:noscript
-       [:h1 "This page requires JavaScript. Please enable JavaScript in your browser and reload this page."]])
+       (ganalytics)])
 
 (defn tabsf
       "Snippet for the page tabs and their labels.
