@@ -7,7 +7,8 @@
             [net.clm.history.pages.pgAdd :as pgAdd]
             [net.clm.history.pages.pgMap :as pgMap]
             [net.clm.history.pages.pgChart :as pgChart]
-            [net.clm.history.pages.pgLearn :as pgLearn])
+            [net.clm.history.pages.pgLearn :as pgLearn]
+            [net.clm.history.pages.pgChange :as pgChange])
     (:gen-class))
 
 
@@ -18,6 +19,7 @@
   (GET "/map" [] (pgMap/page))
   (GET "/chart" [] (pgChart/page))
   (GET "/learn" [] (pgLearn/page))
+  (GET "/change" [] (pgChange/page))
   (route/resources "/")
   (route/not-found "Not Found"))
 

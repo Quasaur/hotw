@@ -29,7 +29,7 @@
                                       "/css/filter.css"
                                       "/css/wc3xhtml1.css"
                                       "/css/doc.css")
-             "changes" (hic/include-css "/css/hcspry.css"
+             "change" (hic/include-css "/css/hcspry.css"
                                         "/css/menus.css"
                                         "/css/filter.css"
                                         "/css/wc3xhtml1.css"
@@ -97,7 +97,7 @@
        [:li [:a {:shape "rect", :href "/map", :title "Map Events"} [:span "Map"]]]
        [:li [:a {:shape "rect", :href "/chart", :title "Chart Events"} [:span "Chart"]]]
        [:li [:a {:shape "rect", :href "/learn", :title "Docs"} [:span "Learn"]]]
-       [:li [:a {:shape "rect", :href "changes", :title "Change Log"} [:span "Changes"]]]
+       [:li [:a {:shape "rect", :href "change", :title "Change Log"} [:span "Changes"]]]
        [:li [:a {:shape "rect", :href "/seek", :title "Links"} [:span "Seek"]]]])
 
 (defn timelinediv
