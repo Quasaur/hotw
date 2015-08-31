@@ -9,25 +9,25 @@
       pageName: the codename for the page being loaded (index, add, map, chart, learn, changes, seek)."
       [pageName]
       (condp = pageName
-             "index" (hic/include-css "/css/hcspry.css"
-                                      "/css/menus.css")
-             "add" (hic/include-css "/css/hcspry.css"
-                                    "/css/menus.css"
-                                    "/css/addform.css")
-             "map" (hic/include-css "/css/hcspry.css"
-                                    "/css/menus.css")
-             "chart" (hic/include-css "/css/hcspry.css"
-                                      "/css/menus.css"
-                                      "/css/cha.css"
-                                      "/css/filter.css")
-             "learn" (hic/include-css "/css/hcspry.css"
-                                      "/css/menus.css"
-                                      "/css/doc.css")
-             "change" (hic/include-css "/css/hcspry.css"
-                                        "/css/menus.css"
-                                        "/css/clg.css")
-             "seek" (hic/include-css "/css/hcspry.css"
-                                     "/css/menus.css")
+             "index" (hic/include-css "/_oldcss/hcspry._oldcss"
+                                      "/_oldcss/menus._oldcss")
+             "add" (hic/include-css "/_oldcss/hcspry._oldcss"
+                                    "/_oldcss/menus._oldcss"
+                                    "/_oldcss/addform._oldcss")
+             "map" (hic/include-css "/_oldcss/hcspry._oldcss"
+                                    "/_oldcss/menus._oldcss")
+             "chart" (hic/include-css "/_oldcss/hcspry._oldcss"
+                                      "/_oldcss/menus._oldcss"
+                                      "/_oldcss/cha._oldcss"
+                                      "/_oldcss/filter._oldcss")
+             "learn" (hic/include-css "/_oldcss/hcspry._oldcss"
+                                      "/_oldcss/menus._oldcss"
+                                      "/_oldcss/doc._oldcss")
+             "change" (hic/include-css "/_oldcss/hcspry._oldcss"
+                                        "/_oldcss/menus._oldcss"
+                                        "/_oldcss/clg._oldcss")
+             "seek" (hic/include-css "/_oldcss/hcspry._oldcss"
+                                     "/_oldcss/menus._oldcss")
              (println (str  "PRGMR. MSG: net.clm.history.pages.snippets.clj::(defn cssfiles [" pageName "]): unknown parameter or parameter not processed properly."))))
 
 
@@ -43,7 +43,7 @@
        _gaq.push(['_trackPageview']);
        (function() {
          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga._oldjs';
          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
        })();"])
 
@@ -51,9 +51,9 @@
   "Loads the timeline javascript files for the Chart page.
   Argument(s): NONE"
   []
-  (hic/include-js "/timeline/timeline_js/timeline-api.js?bundle=true"
-                   "/js/filter.js"
-                   "/js/histtl.js"))
+  (hic/include-js "/timeline/timeline_js/timeline-api._oldjs?bundle=true"
+                   "/_oldjs/filter._oldjs"
+                   "/_oldjs/histtl._oldjs"))
 
 (defn head
       "Snippet for the <head> tag of the page.
