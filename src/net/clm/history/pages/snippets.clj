@@ -9,25 +9,25 @@
       pageName: the codename for the page being loaded (index, add, map, chart, learn, changes, seek)."
       [pageName]
       (condp = pageName
-             "index" (hic/include-css "/_oldcss/hcspry._oldcss"
-                                      "/_oldcss/menus._oldcss")
-             "add" (hic/include-css "/_oldcss/hcspry._oldcss"
-                                    "/_oldcss/menus._oldcss"
-                                    "/_oldcss/addform._oldcss")
-             "map" (hic/include-css "/_oldcss/hcspry._oldcss"
-                                    "/_oldcss/menus._oldcss")
-             "chart" (hic/include-css "/_oldcss/hcspry._oldcss"
-                                      "/_oldcss/menus._oldcss"
-                                      "/_oldcss/cha._oldcss"
-                                      "/_oldcss/filter._oldcss")
-             "learn" (hic/include-css "/_oldcss/hcspry._oldcss"
-                                      "/_oldcss/menus._oldcss"
-                                      "/_oldcss/doc._oldcss")
-             "change" (hic/include-css "/_oldcss/hcspry._oldcss"
-                                        "/_oldcss/menus._oldcss"
-                                        "/_oldcss/clg._oldcss")
-             "seek" (hic/include-css "/_oldcss/hcspry._oldcss"
-                                     "/_oldcss/menus._oldcss")
+             "index" (hic/include-css "/_oldcss/hcspry.css"
+                                      "/_oldcss/menus.css")
+             "add" (hic/include-css "/_oldcss/hcspry.css"
+                                    "/_oldcss/menus.css"
+                                    "/_oldcss/addform.css")
+             "map" (hic/include-css "/_oldcss/hcspry.css"
+                                    "/_oldcss/menus.css")
+             "chart" (hic/include-css "/_oldcss/hcspry.css"
+                                      "/_oldcss/menus.css"
+                                      "/_oldcss/cha.css"
+                                      "/_oldcss/filter.css")
+             "learn" (hic/include-css "/_oldcss/hcspry.css"
+                                      "/_oldcss/menus.css"
+                                      "/_oldcss/doc.css")
+             "change" (hic/include-css "/_oldcss/hcspry.css"
+                                        "/_oldcss/menus.css"
+                                        "/_oldcss/clg.css")
+             "seek" (hic/include-css "/_oldcss/hcspry.css"
+                                     "/_oldcss/menus.css")
              (println (str  "PRGMR. MSG: net.clm.history.pages.snippets.clj::(defn cssfiles [" pageName "]): unknown parameter or parameter not processed properly."))))
 
 

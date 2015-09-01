@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="v0.3.0: for some reason &#10;handler.clj,&#10;snippets.clj,&#10;pgMap.clj&#10;&amp; pgAdd.clj v0.1.1!">
-      <change type="DELETED" beforePath="C:\src\History-of-the-World\resources\public\css\addForm.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\src\History-of-the-World\resources\public\css\cha.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\src\History-of-the-World\resources\public\css\clg.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\src\History-of-the-World\resources\public\css\doc.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\src\History-of-the-World\resources\public\css\filter.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\src\History-of-the-World\resources\public\css\hcspry.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\src\History-of-the-World\resources\public\css\menus.css" afterPath="" />
-      <change type="MOVED" beforePath="C:\src\History-of-the-World\resources\public\css\addForm.css" afterPath="$PROJECT_DIR$/resources/public/_oldcss/addForm.css" />
-      <change type="MOVED" beforePath="C:\src\History-of-the-World\resources\public\css\cha.css" afterPath="$PROJECT_DIR$/resources/public/_oldcss/cha.css" />
-      <change type="MOVED" beforePath="C:\src\History-of-the-World\resources\public\css\clg.css" afterPath="$PROJECT_DIR$/resources/public/_oldcss/clg.css" />
-      <change type="MOVED" beforePath="C:\src\History-of-the-World\resources\public\css\doc.css" afterPath="$PROJECT_DIR$/resources/public/_oldcss/doc.css" />
-      <change type="MOVED" beforePath="C:\src\History-of-the-World\resources\public\css\filter.css" afterPath="$PROJECT_DIR$/resources/public/_oldcss/filter.css" />
-      <change type="MOVED" beforePath="C:\src\History-of-the-World\resources\public\css\hcspry.css" afterPath="$PROJECT_DIR$/resources/public/_oldcss/hcspry.css" />
-      <change type="MOVED" beforePath="C:\src\History-of-the-World\resources\public\css\menus.css" afterPath="$PROJECT_DIR$/resources/public/_oldcss/menus.css" />
-      <change type="MOVED" beforePath="C:\src\History-of-the-World\resources\public\js\filter.js" afterPath="$PROJECT_DIR$/resources/public/_oldjs/filter.js" />
-      <change type="MOVED" beforePath="C:\src\History-of-the-World\resources\public\js\histtl.js" afterPath="$PROJECT_DIR$/resources/public/_oldjs/histtl.js" />
-      <change type="MOVED" beforePath="C:\src\History-of-the-World\resources\public\js\live.js" afterPath="$PROJECT_DIR$/resources/public/_oldjs/live.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgChange.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgChange.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
+    <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/net/clm/history/pages/snippets_test.clj" afterPath="$PROJECT_DIR$/test/net/clm/history/pages/snippets_test.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="History of the World.iws" />
@@ -56,6 +36,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pgIndex.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="snippets.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.1034484">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <folding>
+                <element signature="e#3665#4980#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -66,6 +68,12 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -82,9 +90,9 @@
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgSeek.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/handler.clj" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgChange.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
@@ -121,6 +129,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,73 +188,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="History of the World" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="History-of-the-World" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="History of the World" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="History-of-the-World" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_oldjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="History of the World" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="History-of-the-World" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_oldcss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,7 +405,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439581130741</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v0.9.0: Renaming old css and js folders for importing of new Bootstrap3-based web ui.">
+      <created>1441052578094</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1441052578094</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -478,7 +430,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -491,6 +442,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -508,7 +460,8 @@
     <MESSAGE value="v0.3.0: for some reason project.clj hasn't been pushed since v0.1.2!" />
     <MESSAGE value="v0.3.0: for some reason net.clm.history.iml hasn't been pushed since v0.1.2 (2 days)!" />
     <MESSAGE value="v0.3.0: for some reason &#10;handler.clj,&#10;snippets.clj,&#10;pgMap.clj&#10;&amp; pgAdd.clj v0.1.1!" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.3.0: for some reason &#10;handler.clj,&#10;snippets.clj,&#10;pgMap.clj&#10;&amp; pgAdd.clj v0.1.1!" />
+    <MESSAGE value="v0.9.0: Renaming old css and js folders for importing of new Bootstrap3-based web ui." />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.9.0: Renaming old css and js folders for importing of new Bootstrap3-based web ui." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,8 +500,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="99" column="45" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
           <folding>
-            <element signature="e#3039#3739#0" expanded="false" />
-            <element signature="e#3741#5056#0" expanded="false" />
+            <element signature="e#3665#4980#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -579,8 +531,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3039#3739#0" expanded="false" />
-            <element signature="e#3741#5056#0" expanded="false" />
+            <element signature="e#3665#4980#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -619,8 +570,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="119" column="46" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
           <folding>
-            <element signature="e#3039#3739#0" expanded="false" />
-            <element signature="e#3741#5056#0" expanded="false" />
+            <element signature="e#3665#4980#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,8 +609,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="16" selection-start-line="5" selection-start-column="0" selection-end-line="36" selection-end-column="16" />
           <folding>
-            <element signature="e#3039#3739#0" expanded="false" />
-            <element signature="e#3741#5056#0" expanded="false" />
+            <element signature="e#3665#4980#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -685,8 +634,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3039#3739#0" expanded="false" />
-            <element signature="e#3741#5056#0" expanded="false" />
+            <element signature="e#3665#4980#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -725,8 +673,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
           <folding>
-            <element signature="e#3039#3739#0" expanded="false" />
-            <element signature="e#3741#5056#0" expanded="false" />
+            <element signature="e#3665#4980#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -899,26 +846,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51044387">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3550913">
-          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        <state vertical-scroll-proportion="-4.1034484">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
-            <element signature="e#3039#3739#0" expanded="false" />
-            <element signature="e#3741#5056#0" expanded="false" />
+            <element signature="e#3665#4980#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3994778">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
