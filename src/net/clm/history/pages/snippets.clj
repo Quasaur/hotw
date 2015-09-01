@@ -43,7 +43,7 @@
        _gaq.push(['_trackPageview']);
        (function() {
          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga._oldjs';
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
        })();"])
 
@@ -51,9 +51,9 @@
   "Loads the timeline javascript files for the Chart page.
   Argument(s): NONE"
   []
-  (hic/include-js "/timeline/timeline_js/timeline-api._oldjs?bundle=true"
-                   "/_oldjs/filter._oldjs"
-                   "/_oldjs/histtl._oldjs"))
+  (hic/include-js "/timeline/timeline_js/timeline-api.js?bundle=true"
+                   "/_oldjs/filter.js"
+                   "/_oldjs/histtl.js"))
 
 (defn head
       "Snippet for the <head> tag of the page.

@@ -47,7 +47,7 @@ function onLoad() {
   // draw the timeline
   tl = Timeline.create(document.getElementById("tl"), bandInfos, Timeline.HORIZONTAL);
   // stop browser caching of data during testing...
-  tl.loadJSON("js/live.js?"+ (new Date().getTime()), function(json, url) {eventSource.loadJSON(json, url);});
+  tl.loadJSON("_oldjs/live.js?"+ (new Date().getTime()), function(json, url) {eventSource.loadJSON(json, url);});
   
   setupFilterHighlightControls(document.getElementById("controls"), tl, [0,1], theme);
 }
