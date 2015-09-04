@@ -1,7 +1,7 @@
 (ns net.clm.history.pages.menus
   (:require [hiccup.page :as hic]))
 
-(def liBrowse (list [:li [:a {:shape "rect", :href "/browse"} "Browse"]]))
+(def liBrowse (list [:li [:a {:shape "rect", :href "/"} "Browse"]]))
 (def liBrowseActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Browse"]]))
 (def liAdd (list [:li [:a {:shape "rect", :href "/add"} "Add"]]))
 (def liAddActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Add"]]))

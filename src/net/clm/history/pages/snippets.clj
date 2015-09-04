@@ -25,9 +25,12 @@
                                       "/_customcss/navbar.css"
                                       "/_customcss/footer.css"
                                       "/_customcss/socialicons.css")
-             "add" (hic/include-css "/_oldcss/hcspry.css"
-                                    "/_oldcss/menus.css"
-                                    "/_oldcss/addform.css")
+             "add" (hic/include-css "/Bootstrap-3.3.5/css/bootstrap.min.css"
+                                    "/Bootstrap-3.3.5/css/bootstrap-theme.min.css"
+                                    "/_customcss/page.css"
+                                    "/_customcss/navbar.css"
+                                    "/_customcss/footer.css"
+                                    "/_customcss/socialicons.css")
              "map" (hic/include-css "/_oldcss/hcspry.css"
                                     "/_oldcss/menus.css")
              "chart" (hic/include-css "/_oldcss/hcspry.css"
@@ -75,26 +78,19 @@
   [pageName]
   (condp = pageName
     "index" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
-                             "Bootstrap-3.3.5/js/bootstrap.min.js"
-                             "_customjs/scripts.js")
+                             "Bootstrap-3.3.5/js/bootstrap.min.js")
     "add" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
-                          "Bootstrap-3.3.5/js/bootstrap.min.js"
-                          "_customjs/scripts.js")
+                          "Bootstrap-3.3.5/js/bootstrap.min.js")
     "map" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
-                          "Bootstrap-3.3.5/js/bootstrap.min.js"
-                          "_customjs/scripts.js")
+                          "Bootstrap-3.3.5/js/bootstrap.min.js")
     "chart" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
-                            "Bootstrap-3.3.5/js/bootstrap.min.js"
-                            "_customjs/scripts.js")
+                            "Bootstrap-3.3.5/js/bootstrap.min.js")
     "learn" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
-                            "Bootstrap-3.3.5/js/bootstrap.min.js"
-                            "_customjs/scripts.js")
+                            "Bootstrap-3.3.5/js/bootstrap.min.js")
     "change" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
-                             "Bootstrap-3.3.5/js/bootstrap.min.js"
-                             "_customjs/scripts.js")
+                             "Bootstrap-3.3.5/js/bootstrap.min.js")
     "seek" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
-                           "Bootstrap-3.3.5/js/bootstrap.min.js"
-                           "_customjs/scripts.js")
+                           "Bootstrap-3.3.5/js/bootstrap.min.js")
     (println (str  "PRGMR. MSG: net.clm.history.pages.snippets.clj::(defn loadJSScripts [" pageName "]): unknown parameter or parameter not processed properly."))))
 
 
