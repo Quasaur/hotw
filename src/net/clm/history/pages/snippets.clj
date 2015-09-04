@@ -3,14 +3,28 @@
 
 (def CLMDEBUG 0)
 
+(defn metatags
+  " Load sets of CSS files depending on which page is being served\n
+  Argument(s) : NONE"
+  []
+  [:meta {:charset "utf-8"}]
+  [:meta {:http-equiv "X-UA-Compatible", :content "IE=edge"}]
+  [:meta {:name "viewport", :content "width=device-width, initial-scale=1"}]
+  [:meta {:name "description", :content "History of the World - New Bootstrap 3 Interface, Old Data"}]
+  [:meta {:name "author", :content "Calvin L. Mitchell"}])
+
 (defn cssfiles
       "Load sets of CSS files depending on which page is being served
       Argument(s):
       pageName: the codename for the page being loaded (index, add, map, chart, learn, changes, seek)."
       [pageName]
       (condp = pageName
-             "index" (hic/include-css "/_oldcss/hcspry.css"
-                                      "/_oldcss/menus.css")
+             "index" (hic/include-css "/Bootstrap-3.3.5/css/bootstrap.min.css"
+                                      "/Bootstrap-3.3.5/css/bootstrap-theme.min.css"
+                                      "/_customcss/page.css"
+                                      "/_customcss/navbar.css"
+                                      "/_customcss/footer.css"
+                                      "/_customcss/socialicons.css")
              "add" (hic/include-css "/_oldcss/hcspry.css"
                                     "/_oldcss/menus.css"
                                     "/_oldcss/addform.css")
@@ -62,6 +76,7 @@
       argTitle: the text the HTML <title> tag of the page being loaded."
       [page argTitle]
       [:head
+       (metatags)
        [:title argTitle]
        (cssfiles page)
        (if (= page "chart") (timelinejs))
