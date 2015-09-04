@@ -7,11 +7,11 @@
   " Load sets of CSS files depending on which page is being served\n
   Argument(s) : NONE"
   []
-  [:meta {:charset "utf-8"}]
-  [:meta {:http-equiv "X-UA-Compatible", :content "IE=edge"}]
-  [:meta {:name "viewport", :content "width=device-width, initial-scale=1"}]
-  [:meta {:name "description", :content "History of the World - New Bootstrap 3 Interface, Old Data"}]
-  [:meta {:name "author", :content "Calvin L. Mitchell"}])
+  (list [:meta {:charset "utf-8"}]
+        [:meta {:http-equiv "X-UA-Compatible", :content "IE=edge"}]
+        [:meta {:name "viewport", :content "width=device-width, initial-scale=1"}]
+        [:meta {:name "description", :content "History of the World - New Bootstrap 3 Interface, Old Data"}]
+        [:meta {:name "author", :content "Calvin L. Mitchell"}]))
 
 (defn cssfiles
       "Load sets of CSS files depending on which page is being served
@@ -68,6 +68,50 @@
   (hic/include-js "/timeline/timeline_js/timeline-api.js?bundle=true"
                    "/_oldjs/filter.js"
                    "/_oldjs/histtl.js"))
+
+(defn loadjsscripts
+  "Under the new Bootstrap 3 UI, loads the javascript files at the end of the body tag.
+  Argument(s): NONE"
+  [pageName]
+  (condp = pageName
+    "index" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
+                             "Bootstrap-3.3.5/js/bootstrap.min.js"
+                             "_customjs/scripts.js")
+    "add" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
+                          "Bootstrap-3.3.5/js/bootstrap.min.js"
+                          "_customjs/scripts.js")
+    "map" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
+                          "Bootstrap-3.3.5/js/bootstrap.min.js"
+                          "_customjs/scripts.js")
+    "chart" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
+                            "Bootstrap-3.3.5/js/bootstrap.min.js"
+                            "_customjs/scripts.js")
+    "learn" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
+                            "Bootstrap-3.3.5/js/bootstrap.min.js"
+                            "_customjs/scripts.js")
+    "change" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
+                             "Bootstrap-3.3.5/js/bootstrap.min.js"
+                             "_customjs/scripts.js")
+    "seek" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
+                           "Bootstrap-3.3.5/js/bootstrap.min.js"
+                           "_customjs/scripts.js")
+    (println (str  "PRGMR. MSG: net.clm.history.pages.snippets.clj::(defn loadJSScripts [" pageName "]): unknown parameter or parameter not processed properly."))))
+
+
+(defn socialmediapanel
+  "Boostrap 3 Social Media Panel at the bottom of every page
+  Argument(s): NONE"
+  []
+  (list [:div {:class "panel panel-default"}
+         [:div {:class "panel-heading"} [:h3 {:class "panel-title"} [:strong {} "Contact"]]]
+         [:div {:class "panel-body", :id "socialpbody"}
+          [:div {:id "social"}
+           [:a {:shape "rect", :class "facebookBtn smGlobalBtn", :href "https://www.facebook.com/Quasaur", :target "_blank"}]
+           [:a {:shape "rect", :class "twitterBtn smGlobalBtn", :href "https://twitter.com/quasaur", :target "_blank"}]
+           [:a {:shape "rect", :class "googleplusBtn smGlobalBtn", :href "//plus.google.com/+CalvinMitchell/about", :target "_blank"}]
+           [:a {:shape "rect", :class "linkedinBtn smGlobalBtn", :href "https://www.linkedin.com/in/quasaur", :target "_blank"}]
+           [:a {:shape "rect", :class "pinterestBtn smGlobalBtn", :href "https://www.pinterest.com/Quasaur/", :target "_blank"}]
+           [:a {:shape "rect", :class "tumblrBtn smGlobalBtn", :href "https://www.tumblr.com/blog/quasaur", :target "_blank"}]]]]))
 
 (defn head
       "Snippet for the <head> tag of the page.
