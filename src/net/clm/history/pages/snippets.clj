@@ -113,6 +113,15 @@
            [:a {:shape "rect", :class "pinterestBtn smGlobalBtn", :href "https://www.pinterest.com/Quasaur/", :target "_blank"}]
            [:a {:shape "rect", :class "tumblrBtn smGlobalBtn", :href "https://www.tumblr.com/blog/quasaur", :target "_blank"}]]]]))
 
+(defn statuspanel
+  "Boostrap 3 Status Log Panel at the bottom of every page
+  Argument(s): NONE"
+  []
+  (list [:div {:class "panel panel-default"}
+         [:div {:class "panel-heading"} [:h3 {:class "panel-title"} [:strong {} "Status Log"]]]
+         [:div {:class "panel-body"}
+          [:p "log entry"]]]))
+
 (defn head
       "Snippet for the <head> tag of the page.
       Argument(s):

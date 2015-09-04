@@ -27,6 +27,8 @@
     position: relative;
   }
 
+.navbar-header{padding-left: 15px;}
+
 a.navbar-brand{
     color: white;
 }
@@ -37,6 +39,8 @@ a.navbar-brand{
 .navbar-default .navbar-nav > li > a {
     color: white;
 }
+
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: yellow;

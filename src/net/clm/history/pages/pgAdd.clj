@@ -28,10 +28,7 @@
                  "Loading"]]]]
              [:div {:class "row", :id "footerRow"}
               [:div {:class "col-md-6"}
-               [:div {:class "panel panel-default"}
-                [:div {:class "panel-heading"} [:h3 {:class "panel-title"} [:strong {} "Status Log"]]]
-                [:div {:class "panel-body"}
-                 [:p "This is the TEST site; for the live site, go " [:a {:shape "rect", :href "http://history.clmitchell.net:82/", :target "_blank"} "HERE"] "."]]]]
+               (snippets/statuspanel)]
               [:div {:class "col-md-6"}
                (snippets/socialmediapanel)]]]
           (snippets/loadjsscripts "add")])))

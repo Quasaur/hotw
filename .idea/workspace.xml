@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/_customcss/neotables.css" afterPath="$PROJECT_DIR$/resources/public/_customcss/neotables.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/_customcss/page.css" afterPath="$PROJECT_DIR$/resources/public/_customcss/page.css" />
+    <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="v0.10.6:&#10; (1) added Google Map page.&#10; (2) Change size of all iframes to a height of 700px;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/_customcss/navbar.css" afterPath="$PROJECT_DIR$/resources/public/_customcss/navbar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -34,8 +32,48 @@
       <file leaf-file-name="project.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3772846">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pgAdd.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="snippets.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menus.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/menus.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/public/_customcss/navbar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -73,15 +111,16 @@
         <option value="$PROJECT_DIR$/src/net/clm/history/handler.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgChange.clj" />
         <option value="$PROJECT_DIR$/resources/public/_oldjs/histtl.js" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" />
         <option value="$PROJECT_DIR$/resources/public/_customjs/bsneo4jtabs.js" />
         <option value="$PROJECT_DIR$/resources/public/_customjs/neodatatables.js" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
         <option value="$PROJECT_DIR$/resources/public/_customcss/neotables.css" />
         <option value="$PROJECT_DIR$/resources/public/_customcss/page.css" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" />
+        <option value="$PROJECT_DIR$/resources/public/_customcss/navbar.css" />
         <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
@@ -90,9 +129,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
+    <option name="x" value="60" />
     <option name="y" value="101" />
-    <option name="width" value="1244" />
+    <option name="width" value="1663" />
     <option name="height" value="903" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -499,11 +538,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441373034317</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="v0.10.6:&#10; (1) added Google Map page.&#10; (2) Change size of all iframes to a height of 700px;">
+      <created>1441375355728</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1441375355728</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="101" width="1244" height="903" extended-state="0" />
+    <frame x="60" y="101" width="1663" height="903" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -518,7 +563,7 @@
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21172638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15118398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -583,7 +628,8 @@
     <MESSAGE value="v0.10.3:Fixed problem concatenating Hiccup vectors by wrapping them in (list)." />
     <MESSAGE value="v0.10.4: Index/Browse page is up and running (will eventually have to create separate file for handling status log panel, but itls good for now).&#10;Next: the Add Page." />
     <MESSAGE value="v0.10.5:&#10; (1) added Add page.&#10; (2) fixed error with scripts.js, which had (for now) unnecessary references to Neo4j Events, People, Places &amp; Relationships tabs for upcoming Neo4j data conversion&#10; (3) split scripts into:&#10;    a. bsneo4jtabs to hols js script to control Neo4j Events, People, Places &amp; Relationships tab selection&#10;    b. neodatatables.js to to format the Neo4j tables using DataTables.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.10.5:&#10; (1) added Add page.&#10; (2) fixed error with scripts.js, which had (for now) unnecessary references to Neo4j Events, People, Places &amp; Relationships tabs for upcoming Neo4j data conversion&#10; (3) split scripts into:&#10;    a. bsneo4jtabs to hols js script to control Neo4j Events, People, Places &amp; Relationships tab selection&#10;    b. neodatatables.js to to format the Neo4j tables using DataTables.&#10;" />
+    <MESSAGE value="v0.10.6:&#10; (1) added Google Map page.&#10; (2) Change size of all iframes to a height of 700px;" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.10.6:&#10; (1) added Google Map page.&#10; (2) Change size of all iframes to a height of 700px;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,12 +641,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj</url>
-          <line>141</line>
+          <line>150</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project.clj</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -911,30 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/menus.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/_customcss/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20104438">
-          <caret line="44" column="7" selection-start-line="44" selection-start-column="0" selection-end-line="73" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/_customcss/neotables.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022193212">
@@ -967,14 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46605745">
@@ -983,10 +1003,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/_customcss/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/menus.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3772846">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
           <folding />
         </state>
       </provider>

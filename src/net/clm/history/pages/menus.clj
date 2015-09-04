@@ -29,7 +29,7 @@
       [:span {:class "icon-bar"}]
       [:span {:class "icon-bar"}]
       [:span {:class "icon-bar"}]]
-     [:a {:shape "rect", :class "navbar-brand", :href "#", :style "color: white;"} [:strong {} "History of the World (TEST SITE)"]]]
+     [:a {:shape "rect", :class "navbar-brand", :href "#", :style "color: white;"} [:strong "History of the World"]]]
     [:div {:class "navbar-collapse collapse", :id "navbar"}
      [:ul {:class "nav navbar-nav", :id "menuItems"}
       (condp = pageName
