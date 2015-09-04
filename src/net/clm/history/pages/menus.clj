@@ -1,20 +1,21 @@
 (ns net.clm.history.pages.menus
   (:require [hiccup.page :as hic]))
 
-(def liBrowse [:li [:a {:shape "rect", :href "/browse"} "Browse"]])
-(def liBrowseActive '[:li {:class "active"} [:a {:shape "rect", :href "#"} "Browse"]])
-(def liAdd [:li [:a {:shape "rect", :href "/add"} "Add"]])
-(def liAddActive [:li {:class "active"} [:a {:shape "rect", :href "#"} "Add"]])
-(def liMap [:li [:a {:shape "rect", :href "/map"} "Map"]])
-(def liMapActive [:li {:class "active"} [:a {:shape "rect", :href "#"} "Map"]])
-(def liChart [:li [:a {:shape "rect", :href "/chart"} "Chart"]])
-(def liChartActive [:li {:class "active"} [:a {:shape "rect", :href "#"} "Chart"]])
-(def liLearn [:li [:a {:shape "rect", :href "/learn"} "Learn"]])
-(def liLearnActive [:li {:class "active"} [:a {:shape "rect", :href "#"} "Learn"]])
-(def liChanges [:li [:a {:shape "rect", :href "/changes"} "Changes"]])
-(def liChangesActive [:li {:class "active"} [:a {:shape "rect", :href "#"} "Changes"]])
-(def liSeek [:li [:a {:shape "rect", :href "/seek"} "Chart"]])
-(def liSeekActive [:li {:class "active"} [:a {:shape "rect", :href "#"} "Seek"]])
+(def liBrowse (list [:li [:a {:shape "rect", :href "/browse"} "Browse"]]))
+(def liBrowseActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Browse"]]))
+(def liAdd (list [:li [:a {:shape "rect", :href "/add"} "Add"]]))
+(def liAddActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Add"]]))
+(def liMap (list [:li [:a {:shape "rect", :href "/map"} "Map"]]))
+(def liMapActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Map"]]))
+(def liChart (list [:li [:a {:shape "rect", :href "/chart"} "Chart"]]))
+(def liChartActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Chart"]]))
+(def liLearn (list [:li [:a {:shape "rect", :href "/learn"} "Learn"]]))
+(def liLearnActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Learn"]]))
+(def liChanges (list [:li [:a {:shape "rect", :href "/changes"} "Changes"]]))
+(def liChangesActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Changes"]]))
+(def liSeek (list [:li [:a {:shape "rect", :href "/seek"} "Chart"]]))
+(def liSeekActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Seek"]]))
+
 
 (defn playmenu
   "Implement the Bootstrap 3 Responsive Menu based on the page being displayed.
