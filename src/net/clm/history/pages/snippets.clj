@@ -3,6 +3,8 @@
 
 (def CLMDEBUG 0)
 
+(defn timelinescript []  (list [:script "\nTimeline_ajax_url=\"timeline/timeline_ajax/simile-ajax-api.js\";\nTimeline_urlPrefix='timeline/timeline_js/';\nTimeline_parameters='bundle=true';\n"]))
+
 (defn metatags
   " Load sets of CSS files depending on which page is being served\n
   Argument(s) : NONE"
@@ -37,10 +39,16 @@
                                     "/_customcss/navbar.css"
                                     "/_customcss/footer.css"
                                     "/_customcss/socialicons.css")
-             "chart" (hic/include-css "/_oldcss/hcspry.css"
-                                      "/_oldcss/menus.css"
+             "chart" (hic/include-css "/Bootstrap-3.3.5/css/bootstrap.min.css"
+                                      "/Bootstrap-3.3.5/css/bootstrap-theme.min.css"
+                                      "/_customcss/page.css"
+                                      "/_customcss/navbar.css"
+                                      "/_customcss/footer.css"
+                                      "/_customcss/socialicons.css"
                                       "/_oldcss/cha.css"
-                                      "/_oldcss/filter.css")
+                                      "/_oldcss/filter.css"
+                                      "/timeline/timeline_js/timeline-bundle.css"
+                                      "timeline/timeline_ajax/styles/graphics.css")
              "learn" (hic/include-css "/_oldcss/hcspry.css"
                                       "/_oldcss/menus.css"
                                       "/_oldcss/doc.css")
@@ -120,7 +128,7 @@
   (list [:div {:class "panel panel-default"}
          [:div {:class "panel-heading"} [:h3 {:class "panel-title"} [:strong {} "Status Log"]]]
          [:div {:class "panel-body"}
-          [:p "log entry"]]]))
+          [:span "log entry"]]]))
 
 (defn head
       "Snippet for the <head> tag of the page.
@@ -132,6 +140,7 @@
        (metatags)
        [:title argTitle]
        (cssfiles page)
+       (if (= page "chart") (timelinescript))
        (if (= page "chart") (timelinejs))
        (ganalytics)])
 

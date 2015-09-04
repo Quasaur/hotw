@@ -16,7 +16,7 @@ div#footerRow {
 
 @media (min-width: 992px)    {
     div#footerRow{
-        height: 100px;
+        height: 105px;
     }
 }
 

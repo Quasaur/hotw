@@ -27,8 +27,6 @@
                   :width "100%"}
                  "Loading"]]]]
              [:div {:class "row", :id "footerRow"}
-              [:div {:class "col-md-6"}
-               (snippets/statuspanel)]
-              [:div {:class "col-md-6"}
-               (snippets/socialmediapanel)]]]
-          (snippets/loadjsscripts "add")])))
+              [:div {:class "col-md-6"} (snippets/statuspanel)]
+              [:div {:class "col-md-6"} (snippets/socialmediapanel)]]]
+          (snippets/loadjsscripts "chart")]])))
