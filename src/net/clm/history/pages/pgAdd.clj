@@ -22,7 +22,7 @@
                 [:iframe
                  {:frameborder "1",
                   :scrolling "auto",
-                  :height "1325",
+                  :height "700",
                   :src "https://docs.google.com/spreadsheet/embeddedform?formkey=dHU1SWpjQ1A2cUVkSlBWVC1vNGxzSWc6MA",
                   :width "100%"}
                  "Loading"]]]]

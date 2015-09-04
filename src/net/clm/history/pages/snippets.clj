@@ -31,8 +31,12 @@
                                     "/_customcss/navbar.css"
                                     "/_customcss/footer.css"
                                     "/_customcss/socialicons.css")
-             "map" (hic/include-css "/_oldcss/hcspry.css"
-                                    "/_oldcss/menus.css")
+             "map" (hic/include-css "/Bootstrap-3.3.5/css/bootstrap.min.css"
+                                    "/Bootstrap-3.3.5/css/bootstrap-theme.min.css"
+                                    "/_customcss/page.css"
+                                    "/_customcss/navbar.css"
+                                    "/_customcss/footer.css"
+                                    "/_customcss/socialicons.css")
              "chart" (hic/include-css "/_oldcss/hcspry.css"
                                       "/_oldcss/menus.css"
                                       "/_oldcss/cha.css"
