@@ -1,7 +1,8 @@
 (ns net.clm.history.pages.pgIndex
     (:require [hiccup.core :as hcore]
       [hiccup.page :as hic]
-      [net.clm.history.pages.snippets :as snippets]))
+      [net.clm.history.pages.snippets :as snippets]
+      [net.clm.history.pages.menus :as menu]))
 
 
 (defn page
@@ -13,24 +14,7 @@
       (snippets/head "index" "Dot Net II: History of the World: Browse")
        [:body
         [:div {:class "container"}
-         [:nav {:id "pageNavBar", :class "navbar navbar-default"}
-          [:div {:class "container-fluid"}
-           [:div {:class "navbar-header"}
-            [:button {:type "button", :class "navbar-toggle collapsed", :data-toggle "collapse", :data-target "#navbar"}
-             [:span {:class "sr-only"} "Toggle navigation"]
-             [:span {:class "icon-bar"}]
-             [:span {:class "icon-bar"}]
-             [:span {:class "icon-bar"}]]
-            [:a {:shape "rect", :class "navbar-brand", :href "#", :style "color: white;"} [:strong {} "History of the World (TEST SITE)"]]]
-           [:div {:class "navbar-collapse collapse", :id "navbar"}
-            [:ul {:class "nav navbar-nav", :id "menuItems"}
-             [:li {:class "active"} [:a {:shape "rect", :href "#"} "Browse"]]
-             [:li {} [:a {:shape "rect", :href "/add.html"} "Add"]]
-             [:li {} [:a {:shape "rect", :href "/map.html"} "Map"]]
-             [:li {} [:a {:shape "rect", :href "/chart.html"} "Chart"]]
-             [:li {} [:a {:shape "rect", :href "/learn.html"} "Learn"]]
-             [:li {} [:a {:shape "rect", :href "/changes.html"} "Changes"]]
-             [:li {} [:a {:shape "rect", :href "/seek.html"} "Seek"]]]]]]
+         (menu/playmenu "index")
          [:div {:class "row", :id "contentRow"}
           [:div {:class "col-md-12"}
            [:div {:class "tab-content datascroll"}
