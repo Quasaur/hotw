@@ -12,7 +12,7 @@
 (def liLearn (list [:li [:a {:shape "rect", :href "/learn"} "Learn"]]))
 (def liLearnActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Learn"]]))
 (def liChanges (list [:li [:a {:shape "rect", :href "/change"} "Change"]]))
-(def liChangesActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Changes"]]))
+(def liChangesActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Change"]]))
 (def liSeek (list [:li [:a {:shape "rect", :href "/seek"} "Seek"]]))
 (def liSeekActive (list [:li {:class "active"} [:a {:shape "rect", :href "#"} "Seek"]]))
 
