@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/_oldcss/doc.css" afterPath="$PROJECT_DIR$/resources/public/_oldcss/doc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/_customcss/neotables.css" afterPath="$PROJECT_DIR$/resources/public/_customcss/neotables.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/_customcss/page.css" afterPath="$PROJECT_DIR$/resources/public/_customcss/page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="History of the World.iws" />
@@ -36,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -55,58 +49,8 @@
       <file leaf-file-name="pgLearn.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="snippets.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="67" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doc.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/public/_oldcss/doc.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/public/_customcss/page.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.2972975">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="neotables.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/public/_customcss/neotables.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menus.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/menus.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state vertical-scroll-proportion="53.925926">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="126" selection-end-column="240" />
               <folding />
             </state>
           </provider>
@@ -153,9 +97,9 @@
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
         <option value="$PROJECT_DIR$/resources/public/_oldcss/doc.css" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" />
         <option value="$PROJECT_DIR$/resources/public/_customcss/neotables.css" />
         <option value="$PROJECT_DIR$/resources/public/_customcss/page.css" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
@@ -620,7 +564,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441399642568</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="v0.10.9:&#10; (1) Updated Learn/Documentation page for Bootstrap 3.&#10; (2) Moved datascroll class from neotables.css to page.css.">
+      <created>1441427242000</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1441427242000</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -629,6 +579,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299748" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -649,7 +600,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -680,7 +630,8 @@
     <MESSAGE value="v0.10.6:&#10; (1) added Google Map page.&#10; (2) Change size of all iframes to a height of 700px;" />
     <MESSAGE value="v0.10.7:&#10; (1) Removed &quot;TEST Site&quot; phrase from all pages&#10; (2) Went ahead and moved Status Log Panel to snippets.clj until true logging code is added." />
     <MESSAGE value="v0.10.8:&#10; (1) Updated Chart page for Bootstrap 3.&#10; (2) Clearned up Footer for all pages.&#10; (3) Fixed height prob with status panel." />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.10.8:&#10; (1) Updated Chart page for Bootstrap 3.&#10; (2) Clearned up Footer for all pages.&#10; (3) Fixed height prob with status panel." />
+    <MESSAGE value="v0.10.9:&#10; (1) Updated Learn/Documentation page for Bootstrap 3.&#10; (2) Moved datascroll class from neotables.css to page.css." />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.10.9:&#10; (1) Updated Learn/Documentation page for Bootstrap 3.&#10; (2) Moved datascroll class from neotables.css to page.css." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1055,14 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/_oldcss/doc.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1087,10 +1030,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="53.925926">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="126" selection-end-column="240" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
           <folding />
         </state>
       </provider>
