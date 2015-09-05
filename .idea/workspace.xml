@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="History of the World.iws" />
@@ -592,7 +590,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441427476091</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="v0.10.101 Corrected Seek menuitem mistake on pgLearn.clj (menus.clj).">
+      <created>1441427678285</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1441427678285</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -655,7 +659,8 @@
     <MESSAGE value="v0.10.9:&#10; (1) Updated Learn/Documentation page for Bootstrap 3.&#10; (2) Moved datascroll class from neotables.css to page.css." />
     <MESSAGE value="v0.10.9: Indented pgLearn.clj properly." />
     <MESSAGE value="v0.10.10: Removed &quot;SNAPSHOT&quot; from project." />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.10.10: Removed &quot;SNAPSHOT&quot; from project." />
+    <MESSAGE value="v0.10.101 Corrected Seek menuitem mistake on pgLearn.clj (menus.clj)." />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.10.101 Corrected Seek menuitem mistake on pgLearn.clj (menus.clj)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
