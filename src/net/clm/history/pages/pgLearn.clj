@@ -1,19 +1,24 @@
 (ns net.clm.history.pages.pgLearn
-    (:require [hiccup.core :as hcore]
-      [hiccup.page :as hic]
-      [net.clm.history.pages.snippets :as snippets]))
+ (:require [hiccup.core :as hcore]
+           [hiccup.page :as hic]
+           [net.clm.history.pages.snippets :as snippets]
+           [net.clm.history.pages.menus :as menu]))
 
 
 (defn page
-      "Documentation Page for History of the World.
-      Argument(s): NONE"
-      []
-      (hcore/html
-        (hic/html5
-        (snippets/head "learn" "Dot Net II: History of the World: Learn")
-         [:body {}
-          [:h1 {:class "title"} "History of the World"]
-          [:div {:id "tabsF"} (snippets/tabsf)]
+ "Index/Browse Page for History of the World.
+ Argument(s): NONE"
+ []
+ (hcore/html
+  (hic/html5 {:lang "en"}
+             (snippets/head "learn" "Dot Net II: History of the World: Documentation")
+             [:body
+              [:div {:class "container"}
+               ;; Load the Bootstrap 3 responsive menu
+               (menu/playmenu "learn")
+               [:div {:class "row", :id "contentRow"}
+                [:div {:class "col-md-12"}
+                 [:div {:class "tab-content datascroll"}
           [:div {:id "docs"}
            [:p {} "NOTE: THIS PAGE IS STILL UNDER CONSTRUCTION!"]
            [:h1 {:class "doc"} "INTRODUCTION"]
@@ -119,4 +124,9 @@
            [:h2 {:class "doc"} "E.1. Changelog for This App"]
            [:p {} "This link leads to an article on my main website that keeps track of the changes I make to my History, including the addition of any historical events."]
            [:h2 {:class "doc"} "E.2. Contact Us for any Suggestions, Corrections or Feedback"]
-           [:p {} "This links goes to the Contact Us page of the main website. I get a lot of spam on that email account; so be sure to include \"History of the World\" in the subject so that I know NOT to delete your message."]]])))
+           [:p {} "This links goes to the Contact Us page of the main website. I get a lot of spam on that email account; so be sure to include \"History of the World\" in the subject so that I know NOT to delete your message."]]
+                  ]]]
+               [:div {:class "row", :id "footerRow"}
+                [:div {:class "col-md-6"} (snippets/statuspanel)]
+                [:div {:class "col-md-6"} (snippets/socialmediapanel)]]]
+              (snippets/loadjsscripts "chart")])))
