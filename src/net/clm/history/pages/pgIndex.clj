@@ -4,6 +4,9 @@
       [net.clm.history.pages.snippets :as snippets]
       [net.clm.history.pages.menus :as menu]))
 
+(defn pageContent []
+  (list
+    [:iframe {:frameborder "1", :scrolling "auto", :height "700", :src "https://docs.google.com/spreadsheet/pub?key=0AuW1vC5u5nOAdDhvNDQ1X0c1UGptaFlSclpzTDlaRFE&single=true&gid=0&output=html", :width "100%"}]))
 
 (defn page
   "Index/Browse Page for History of the World.
@@ -19,7 +22,7 @@
          [:div {:class "row", :id "contentRow"}
           [:div {:class "col-md-12"}
            [:div {:class "tab-content datascroll"}
-            [:iframe {:frameborder "1", :scrolling "auto", :height "700", :src "https://docs.google.com/spreadsheet/pub?key=0AuW1vC5u5nOAdDhvNDQ1X0c1UGptaFlSclpzTDlaRFE&single=true&gid=0&output=html", :width "100%"}]]]]
+            (pageContent)]]]
          [:div {:class "row", :id "footerRow"}
           [:div {:class "col-md-6"} (snippets/statuspanel)]
           [:div {:class "col-md-6"} (snippets/socialmediapanel)]]]

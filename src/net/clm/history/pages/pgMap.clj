@@ -4,6 +4,13 @@
       [net.clm.history.pages.snippets :as snippets]
       [net.clm.history.pages.menus :as menu]))
 
+(defn pageContent []
+  (list [:iframe {:frameborder "0",
+                  :marginheight "0",
+                  :marginwidth "0",
+                  :src "https://www.google.com/fusiontables/embedviz?viz=MAP&q=select+col6+from+3490855+&h=false&lat=61.68987220046001&lng=141.29056319999995&z=3&t=1&l=col6",
+                  :width "100%",
+                  :height "700"} "Loading"]))
 
 (defn page
       "Map Page for History of the World.
@@ -19,12 +26,7 @@
             [:div {:class "row", :id "contentRow"}
              [:div {:class "col-md-12"}
               [:div {:class "tab-content datascroll"}
-               [:iframe {:frameborder "0",
-                         :marginheight "0",
-                         :marginwidth "0",
-                         :src "https://www.google.com/fusiontables/embedviz?viz=MAP&q=select+col6+from+3490855+&h=false&lat=61.68987220046001&lng=141.29056319999995&z=3&t=1&l=col6",
-                         :width "100%",
-                         :height "700"} "Loading"]]]]
+               (pageContent)]]]
             [:div {:class "row", :id "footerRow"}
              [:div {:class "col-md-6"} (snippets/statuspanel)]
              [:div {:class "col-md-6"} (snippets/socialmediapanel)]]]

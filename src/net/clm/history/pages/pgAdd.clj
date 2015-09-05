@@ -4,6 +4,15 @@
       [net.clm.history.pages.snippets :as snippets]
       [net.clm.history.pages.menus :as menu]))
 
+(defn pageContent []
+  (list [:iframe
+         {:frameborder "1",
+          :scrolling "auto",
+          :height "700",
+          :src "https://docs.google.com/spreadsheet/embeddedform?formkey=dHU1SWpjQ1A2cUVkSlBWVC1vNGxzSWc6MA",
+          :width "100%"}
+         "Loading"]))
+
 
 (defn page
       "Add Event Page for History of the World.
@@ -19,13 +28,7 @@
              [:div {:class "row", :id "contentRow"}
               [:div {:class "col-md-12"}
                [:div {:class "tab-content datascroll"}
-                [:iframe
-                 {:frameborder "1",
-                  :scrolling "auto",
-                  :height "700",
-                  :src "https://docs.google.com/spreadsheet/embeddedform?formkey=dHU1SWpjQ1A2cUVkSlBWVC1vNGxzSWc6MA",
-                  :width "100%"}
-                 "Loading"]]]]
+                (pageContent)]]]
              [:div {:class "row", :id "footerRow"}
               [:div {:class "col-md-6"} (snippets/statuspanel)]
               [:div {:class "col-md-6"} (snippets/socialmediapanel)]]]

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="">
+    <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="v0.10.11 Corrected Seek menuitem mistake on pgLearn.clj (menus.clj).">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgChart.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgChart.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="History of the World.iws" />
@@ -48,7 +55,37 @@
         <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="21" selection-start-column="216" selection-end-line="26" selection-end-column="0" />
+              <caret line="8" column="208" selection-start-line="8" selection-start-column="208" selection-end-line="8" selection-end-column="208" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pgAdd.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pgMap.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pgChart.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgChart.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -57,8 +94,8 @@
       <file leaf-file-name="pgLearn.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-74.92593">
-              <caret line="122" column="86" selection-start-line="122" selection-start-column="86" selection-end-line="122" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="130" column="30" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -98,16 +135,16 @@
         <option value="$PROJECT_DIR$/resources/public/_customjs/neodatatables.js" />
         <option value="$PROJECT_DIR$/resources/public/_customcss/navbar.css" />
         <option value="$PROJECT_DIR$/resources/public/_customcss/footer.css" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgChart.clj" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
         <option value="$PROJECT_DIR$/resources/public/_oldcss/doc.css" />
         <option value="$PROJECT_DIR$/resources/public/_customcss/neotables.css" />
         <option value="$PROJECT_DIR$/resources/public/_customcss/page.css" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgChart.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
@@ -123,10 +160,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="73" />
-    <option name="width" value="1296" />
-    <option name="height" value="959" />
+    <option name="x" value="60" />
+    <option name="y" value="101" />
+    <option name="width" value="2273" />
+    <option name="height" value="903" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -280,7 +317,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -602,11 +639,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441427707963</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="v0.10.11 Corrected Seek menuitem mistake on pgLearn.clj (menus.clj).">
+      <created>1441427718986</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1441427718986</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="73" width="1296" height="959" extended-state="6" />
+    <frame x="60" y="101" width="2273" height="903" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -621,8 +664,8 @@
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19453125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11032344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -691,7 +734,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj</url>
-          <line>31</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -987,42 +1030,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgChart.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/_customcss/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="21" selection-start-column="216" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22749391">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,18 +1069,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-74.92593">
-          <caret line="122" column="86" selection-start-line="122" selection-start-column="86" selection-end-line="122" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/menus.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="130" column="30" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="208" selection-start-line="8" selection-start-column="208" selection-end-line="8" selection-end-column="208" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgChart.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding />
         </state>
       </provider>
