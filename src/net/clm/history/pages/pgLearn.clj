@@ -120,16 +120,16 @@
  []
  (hcore/html
   (hic/html5 {:lang "en"}
-             (snippets/head "learn" "Dot Net II: History of the World: Documentation")
-             [:body
-              [:div {:class "container"}
-               ;; Load the Bootstrap 3 responsive menu
-               (menu/playmenu "learn")
-               [:div {:class "row", :id "contentRow"}
-                [:div {:class "col-md-12"}
-                 [:div {:class "tab-content datascroll"}
-                  (pageContent)]]]
-               [:div {:class "row", :id "footerRow"}
-                [:div {:class "col-md-6"} (snippets/statuspanel)]
-                [:div {:class "col-md-6"} (snippets/socialmediapanel)]]]
-              (snippets/loadjsscripts "chart")])))
+     (snippets/head "learn" "Dot Net II: History of the World: Documentation")
+     [:body
+      [:div {:class "container"}
+       ;; Load the Bootstrap 3 responsive menu
+       (menu/playmenu "learn")
+       [:div {:class "row", :id "contentRow"}
+        [:div {:class "col-md-12"}
+         [:div {:class "tab-content datascroll"}
+          (pageContent)]]]
+       [:div {:class "row", :id "footerRow"}
+        [:div {:class "col-md-6"} (snippets/statuspanel)]
+        [:div {:class "col-md-6"} (snippets/socialmediapanel)]]]
+      (snippets/loadjsscripts "learn")])))
