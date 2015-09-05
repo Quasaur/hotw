@@ -1,6 +1,6 @@
 # net.clm.history
 
-FIXME
+Latest work being done in "clojure" branch.
 
 ## Prerequisites
 

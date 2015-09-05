@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" />
+    <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="v0.10.14: Made sure Change menuitem is consistent across all pages.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,6 +31,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.2592592">
+              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -101,6 +111,7 @@
         <option value="$PROJECT_DIR$/resources/public/_oldcss/clg.css" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgChange.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
@@ -551,7 +562,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441477320880</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="v0.10.14: Made sure Change menuitem is consistent across all pages.">
+      <created>1441477452400</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1441477452400</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -645,7 +662,8 @@
     <MESSAGE value="v0.10.11 Corrected Seek menuitem mistake on pgLearn.clj (menus.clj)." />
     <MESSAGE value="v0.10.12: Separated the main content for each page (&quot;defn pageContent&quot;) for clarity." />
     <MESSAGE value="v0.10.13: Converted Changelog page to Bootstrap 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.10.13: Converted Changelog page to Bootstrap 3." />
+    <MESSAGE value="v0.10.14: Made sure Change menuitem is consistent across all pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.10.14: Made sure Change menuitem is consistent across all pages." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -683,13 +701,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgChart.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1053,6 +1064,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="88" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2592592">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding />
         </state>
       </provider>
