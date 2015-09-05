@@ -63,8 +63,12 @@
                                        "/_customcss/footer.css"
                                        "/_customcss/socialicons.css"
                                         "/_oldcss/clg.css")
-             "seek" (hic/include-css "/_oldcss/hcspry.css"
-                                     "/_oldcss/menus.css")
+             "seek" (hic/include-css "/Bootstrap-3.3.5/css/bootstrap.min.css"
+                                     "/Bootstrap-3.3.5/css/bootstrap-theme.min.css"
+                                     "/_customcss/page.css"
+                                     "/_customcss/navbar.css"
+                                     "/_customcss/footer.css"
+                                     "/_customcss/socialicons.css""/_oldcss/hcspry.css")
              (println (str  "PRGMR. MSG: net.clm.history.pages.snippets.clj::(defn cssfiles [" pageName "]): unknown parameter or parameter not processed properly."))))
 
 
