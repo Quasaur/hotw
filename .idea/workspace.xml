@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgLearn.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -570,7 +569,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441427242000</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="v0.10.9: Indented pgLearn.clj properly.">
+      <created>1441427403870</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1441427403870</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -631,7 +636,8 @@
     <MESSAGE value="v0.10.7:&#10; (1) Removed &quot;TEST Site&quot; phrase from all pages&#10; (2) Went ahead and moved Status Log Panel to snippets.clj until true logging code is added." />
     <MESSAGE value="v0.10.8:&#10; (1) Updated Chart page for Bootstrap 3.&#10; (2) Clearned up Footer for all pages.&#10; (3) Fixed height prob with status panel." />
     <MESSAGE value="v0.10.9:&#10; (1) Updated Learn/Documentation page for Bootstrap 3.&#10; (2) Moved datascroll class from neotables.css to page.css." />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.10.9:&#10; (1) Updated Learn/Documentation page for Bootstrap 3.&#10; (2) Moved datascroll class from neotables.css to page.css." />
+    <MESSAGE value="v0.10.9: Indented pgLearn.clj properly." />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.10.9: Indented pgLearn.clj properly." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
