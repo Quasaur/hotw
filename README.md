@@ -1,6 +1,6 @@
 # net.clm.history
 
-Latest work being done in "clojure" branch.
+Latest work being done in "clojure" branch is now merged into master branch.
 
 ## Prerequisites
 
