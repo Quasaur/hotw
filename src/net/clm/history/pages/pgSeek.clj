@@ -7,8 +7,8 @@
 (defn pageContent []
   (list
     [:div {:id "links"}
-     [:fieldset {}
-      [:legend {} "Links"]
+     [:fieldset
+      [:legend "Links"]
       [:a {:shape "rect", :href "mailto:webmaster@clmitchell.net", :target "_blank"} "Contact Us for any Suggestions, Corrections or Feedback"] [:br {:clear "none"}] [:br {:clear "none"}]
       [:a {:shape "rect", :href "https://github.com/Quasaur/History-of-the-World", :target "_blank"} "History of the World on GitHub.com"] [:br {:clear "none"}] [:br {:clear "none"}]
       [:a {:shape "rect", :href "http://www.clmitchell.net/", :target "_blank"} "Calvin's Dot Net II"] [:br {:clear "none"}] [:br {:clear "none"}]

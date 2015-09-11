@@ -123,7 +123,7 @@
   Argument(s): NONE"
   []
   (list [:div {:class "panel panel-default"}
-         [:div {:class "panel-heading"} [:h3 {:class "panel-title"} [:strong {} "Contact"]]]
+         [:div {:class "panel-heading"} [:h3 {:class "panel-title"} [:strong "Contact"]]]
          [:div {:class "panel-body", :id "socialpbody"}
           [:div {:id "social"}
            [:a {:shape "rect", :class "facebookBtn smGlobalBtn", :href "https://www.facebook.com/Quasaur", :target "_blank"}]
@@ -138,7 +138,7 @@
   Argument(s): NONE"
   []
   (list [:div {:class "panel panel-default"}
-         [:div {:class "panel-heading"} [:h3 {:class "panel-title"} [:strong {} "Status Log"]]]
+         [:div {:class "panel-heading"} [:h3 {:class "panel-title"} [:strong "Status Log"]]]
          [:div {:class "panel-body"}
           [:span "log entry"]]]))
 
@@ -177,7 +177,7 @@
    [:div {:class "timeline-default", :id "tl", :style "height: 650px; border: 1px solid #aaa; font-size:10pt"}]
    [:div {:style "width: 100%"}
     [:table {:style "text-align: center; width: 100%"}
-     [:tr {}
+     [:tr
       [:td {:colspan "1", :rowspan "1"} [:a {:shape "rect", :href "javascript:centerTimeline(-11000);"} "11000 BC"]]
       [:td {:colspan "1", :rowspan "1"} [:a {:shape "rect", :href "javascript:centerTimeline(-8000);"} "8000 BC"]]
       [:td {:colspan "1", :rowspan "1"} [:a {:shape "rect", :href "javascript:centerTimeline(-6000);"} "6000 BC"]]
