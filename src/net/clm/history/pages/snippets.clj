@@ -21,10 +21,18 @@
       pageName: the codename for the page being loaded (index, add, map, chart, learn, changes, seek)."
       [pageName]
       (condp = pageName
-             "index" (hic/include-css "/Bootstrap-3.3.5/css/bootstrap.min.css"
+             "index" (hic/include-css "/Datatables-1.10.8/css/jquery.dataTables.min.css"
+                                      "/Bootstrap-3.3.5/css/bootstrap.min.css"
                                       "/Bootstrap-3.3.5/css/bootstrap-theme.min.css"
+                                      "/DataTables-1.10.8/css/dataTables.bootstrap.min.css"
+                                      "/FixedColumns-3.1.0/css/fixedColumns.bootstrap.min.css"
+                                      "/FixedHeader-3.0.0/css/fixedHeader.bootstrap.min.css"
+                                      "/Responsive-1.0.7/css/responsive.bootstrap.min.css"
+                                      "/Scroller-1.3.0/css/scroller.bootstrap.min.css"
+                                      "/Select-1.0.0/css/select.bootstrap.min.css"
                                       "/_customcss/page.css"
                                       "/_customcss/navbar.css"
+                                      "/_customcss/neotables.css"
                                       "/_customcss/footer.css"
                                       "/_customcss/socialicons.css")
              "add" (hic/include-css "/Bootstrap-3.3.5/css/bootstrap.min.css"
@@ -102,7 +110,15 @@
   [pageName]
   (condp = pageName
     "index" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
-                             "Bootstrap-3.3.5/js/bootstrap.min.js")
+                            "Bootstrap-3.3.5/js/bootstrap.min.js"
+                            "DataTables-1.10.8/js/jquery.dataTables.min.js"
+                            "DataTables-1.10.8/js/dataTables.bootstrap.min.js"
+                            "FixedColumns-3.1.0/js/dataTables.fixedColumns.min.js"
+                            "FixedHeader-3.0.0/js/dataTables.fixedHeader.min.js"
+                            "Responsive-1.0.7/js/dataTables.responsive.min.js"
+                            "Scroller-1.3.0/js/dataTables.scroller.min.js"
+                            "Select-1.0.0/js/dataTables.select.min.js"
+                            "_customjs/scripts.js")
     "add" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
                           "Bootstrap-3.3.5/js/bootstrap.min.js")
     "map" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
