@@ -117,8 +117,7 @@
                             "FixedHeader-3.0.0/js/dataTables.fixedHeader.min.js"
                             "Responsive-1.0.7/js/dataTables.responsive.min.js"
                             "Scroller-1.3.0/js/dataTables.scroller.min.js"
-                            "Select-1.0.0/js/dataTables.select.min.js"
-                            "_customjs/scripts.js")
+                            "Select-1.0.0/js/dataTables.select.min.js")
     "add" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
                           "Bootstrap-3.3.5/js/bootstrap.min.js")
     "map" (hic/include-js "jQuery-2.1.4/jquery-2.1.4.min.js"
