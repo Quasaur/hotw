@@ -2,7 +2,7 @@
     (:require [hiccup.core :as hcore]
       [hiccup.page :as hic]
       [net.clm.history.pages.snippets :as snippets]
-      [net.clm.history.pages.menus :as menu]))
+      [net.clm.history.pages.menus :as menus]))
 
 (defn pageContent []
   (list [:iframe {:frameborder "0",
@@ -22,7 +22,7 @@
           [:body
            [:div {:class "container"}
             ;; Load the Bootstrap 3 responsive menu
-            (menu/playmenu "map")
+            (menus/playmenu "map")
             [:div {:class "row", :id "contentRow"}
              [:div {:class "col-md-12"}
               [:div {:class "tab-content datascroll"}

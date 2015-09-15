@@ -1,4 +1,4 @@
-(defproject net.clm.history "1.0.7"
+(defproject net.clm.history "1.1.1"
   :main net.clm.history.handler
   :aot [net.clm.history.handler]
   :description "A rewrite of my History of the World in Clojure"
@@ -7,7 +7,8 @@
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [ring/ring-jetty-adapter "1.4.0"]
                  [compojure "1.4.0"]
-                 [hiccup "1.0.5"]]
+                 [hiccup "1.0.5"]
+                 [clojurewerkz/neocons "3.0.0"]]
   :plugins [[lein-ring "0.9.6"]
             [codox "0.8.13"]]
   :ring {:handler net.clm.history.handler/app

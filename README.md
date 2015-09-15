@@ -15,7 +15,9 @@ You will need:
  [Compojure][] 1.4.0 or above
  
  [Hiccup][] 1.0.5 or above
- 
+
+ [Neocons][] 3.0.0 or above
+
  [Lein-Ring][] 0.9.6 or above
  
  [Codox][] 0.8.13 or above
@@ -29,6 +31,7 @@ You will need:
 [Ring/ring-jetty-adapter]: https://github.com/ring-clojure/ring
 [Compojure]: https://github.com/weavejester/compojure
 [Hiccup]: https://github.com/weavejester/hiccup
+[Neocons]: https://github.com/clojurewerkz/neocons
 [Lein-Ring]: https://github.com/weavejester/lein-ring
 [Codox]: https://github.com/weavejester/codox
 [Ring-Mock]: https://github.com/weavejester/ring-mock

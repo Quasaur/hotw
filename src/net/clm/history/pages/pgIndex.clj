@@ -1,8 +1,10 @@
 (ns net.clm.history.pages.pgIndex
-    (:require [hiccup.core :as hcore]
-      [hiccup.page :as hic]
-      [net.clm.history.pages.snippets :as snippets]
-      [net.clm.history.pages.menus :as menu]))
+  (:require [hiccup.core :as hcore]
+            [hiccup.page :as hic]
+            [net.clm.history.pages.snippets :as snippets]
+            [net.clm.history.pages.menus :as menus]
+            [net.clm.history.neolib :as neo]
+            [net.clm.history.pages.menus :as menus]))
 
 (defn pctabs []
   [:ul {:class "nav nav-tabs", :role "tablist", :style "background-color: lightgrey;"}
@@ -711,7 +713,7 @@
        [:body
         [:div {:class "container"}
          ;; Load the Bootstrap 3 responsive menu
-         (menu/playmenu "index")
+         (menus/playmenu "index")
          [:div {:class "row", :id "contentRow"}
           [:div {:class "col-md-12"}
            (pctabs)
