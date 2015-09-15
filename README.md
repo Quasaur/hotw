@@ -20,11 +20,18 @@ You will need:
  
  [Codox][] 0.8.13 or above
  
- [Java.serverlet/serlet-api][] 2.5 or above
+ Java.serverlet/servlet-api 2.5 or above
  
  [Ring-Mock][] 0.1.5 or above
 
-[leiningen]: https://github.com/technomancy/leiningen
+[Leiningen]: https://github.com/technomancy/leiningen
+[Clojure]: https://github.com/clojure/clojure
+[Ring/ring-jetty-adapter]: https://github.com/ring-clojure/ring
+[Compojure]: https://github.com/weavejester/compojure
+[Hiccup]: https://github.com/weavejester/hiccup
+[Lein-Ring]: https://github.com/weavejester/lein-ring
+[Codox]: https://github.com/weavejester/codox
+[Ring-Mock]: https://github.com/weavejester/ring-mock
 
 ## Running
 

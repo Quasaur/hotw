@@ -1,4 +1,4 @@
-(defproject net.clm.history "1.0.5"
+(defproject net.clm.history "1.0.6"
   :main net.clm.history.handler
   :aot [net.clm.history.handler]
   :description "A rewrite of my History of the World in Clojure"
