@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/css/default.css" afterPath="$PROJECT_DIR$/doc/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index.html" afterPath="$PROJECT_DIR$/doc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/js/jquery.min.js" afterPath="$PROJECT_DIR$/doc/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.handler.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.handler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.pages.pgAdd.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.pages.pgAdd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.pages.pgChart.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.pages.pgChart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.pages.pgIndex.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.pages.pgIndex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.pages.pgMap.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.pages.pgMap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.pages.snippets.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.pages.snippets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/js/page_effects.js" afterPath="$PROJECT_DIR$/doc/js/page_effects.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -218,6 +227,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="History of the World" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="History-of-the-World" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -622,7 +645,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442279818136</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="v1.0.6: Cleaning up the README.md a bit.">
+      <created>1442280945235</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1442280945235</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -695,7 +724,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v0.9.2: Corrected mistake in renaming old  js folder (chart page) for importing of new Bootstrap3-based web ui." />
     <MESSAGE value="v0.10.1: index with old Google Spreadsheet data works with new Bootstrap3 UI!&#10;Next Step: create namespace for menu manipulation." />
     <MESSAGE value="v0.10.2: Rnning into problem concatenating Hiccup vectors to be transmitted to webpage." />
     <MESSAGE value="v0.10.3:Fixed problem concatenating Hiccup vectors by wrapping them in (list)." />
@@ -720,7 +748,8 @@
     <MESSAGE value="v1.0.3: table data cleaned up and page is running again (though there are some formatting issues and paging isnt working." />
     <MESSAGE value="v1.0.4: Custom js files bsneo4jtabs.js &amp; neodatatables.js (split off from scripts.js) werent included...fixed.&#10;Next: figure out why the the Bootstrap tabs Events, People, Places and Relationships arent displaying." />
     <MESSAGE value="v1.0.5: Fixed Bootstrap tabs (Events, People, Places and Relationships) display problem. &#10;Next: implement the REAL neo4j protocols with Clojurewerks' Neocons lib." />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0.5: Fixed Bootstrap tabs (Events, People, Places and Relationships) display problem. &#10;Next: implement the REAL neo4j protocols with Clojurewerks' Neocons lib." />
+    <MESSAGE value="v1.0.6: Cleaning up the README.md a bit." />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.6: Cleaning up the README.md a bit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
