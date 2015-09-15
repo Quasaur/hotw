@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="History of the World.iws" />
@@ -40,12 +40,12 @@
         <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+              <caret line="716" column="18" selection-start-line="716" selection-start-column="18" selection-end-line="716" selection-end-column="18" />
               <folding>
-                <element signature="e#749#9813#0" expanded="false" />
-                <element signature="e#9815#15003#0" expanded="false" />
-                <element signature="e#15005#16524#0" expanded="false" />
-                <element signature="e#16526#18674#0" expanded="false" />
+                <element signature="e#730#9794#0" expanded="false" />
+                <element signature="e#9796#14984#0" expanded="false" />
+                <element signature="e#14986#16505#0" expanded="false" />
+                <element signature="e#16507#18655#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -56,26 +56,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="121" column="52" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bsneo4jtabs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/public/_customjs/bsneo4jtabs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="neodatatables.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/public/_customjs/neodatatables.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -126,8 +106,8 @@
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgSeek.clj" />
         <option value="$PROJECT_DIR$/resources/public/_oldcss/hcspry.css" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgChange.clj" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
@@ -708,7 +688,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442218302200</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="v1.0.4: Custom js files bsneo4jtabs.js &amp; neodatatables.js (split off from scripts.js) werent included...fixed.&#10;Next: figure out why the the Bootstrap tabs Events, People, Places and Relationships arent displaying.">
+      <created>1442278049180</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1442278049180</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -717,6 +703,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299748" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -736,7 +723,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8447059" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -781,7 +767,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v0.9.0: Renaming old css and js folders for importing of new Bootstrap3-based web ui." />
     <MESSAGE value="v0.9.1: Corrected mistake in renaming old css and js folders for importing of new Bootstrap3-based web ui." />
     <MESSAGE value="v0.9.2: Corrected mistake in renaming old  js folder (chart page) for importing of new Bootstrap3-based web ui." />
     <MESSAGE value="v0.10.1: index with old Google Spreadsheet data works with new Bootstrap3 UI!&#10;Next Step: create namespace for menu manipulation." />
@@ -806,7 +791,8 @@
     <MESSAGE value="v1.0.1: Hiccup: got rid of all empty element attribute braces (&quot;{}&quot;)." />
     <MESSAGE value="v1.0.2: THIS BREAK THE PROGRAM! pgIndex.clj &amp; snippets.clj: My first attempt to render the Neo4j mockup in the test site." />
     <MESSAGE value="v1.0.3: table data cleaned up and page is running again (though there are some formatting issues and paging isnt working." />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0.3: table data cleaned up and page is running again (though there are some formatting issues and paging isnt working." />
+    <MESSAGE value="v1.0.4: Custom js files bsneo4jtabs.js &amp; neodatatables.js (split off from scripts.js) werent included...fixed.&#10;Next: figure out why the the Bootstrap tabs Events, People, Places and Relationships arent displaying." />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.4: Custom js files bsneo4jtabs.js &amp; neodatatables.js (split off from scripts.js) werent included...fixed.&#10;Next: figure out why the the Bootstrap tabs Events, People, Places and Relationships arent displaying." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1198,12 +1184,12 @@
     <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+          <caret line="716" column="18" selection-start-line="716" selection-start-column="18" selection-end-line="716" selection-end-column="18" />
           <folding>
-            <element signature="e#749#9813#0" expanded="false" />
-            <element signature="e#9815#15003#0" expanded="false" />
-            <element signature="e#15005#16524#0" expanded="false" />
-            <element signature="e#16526#18674#0" expanded="false" />
+            <element signature="e#730#9794#0" expanded="false" />
+            <element signature="e#9796#14984#0" expanded="false" />
+            <element signature="e#14986#16505#0" expanded="false" />
+            <element signature="e#16507#18655#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -5,12 +5,11 @@
       [net.clm.history.pages.menus :as menu]))
 
 (defn pctabs []
-  (list
-    [:ul {:class "nav nav-tabs", :role "tablist", :style "background-color: lightgrey;"}
-     [:li {:class "active"} [:a {:shape "rect", :id "tab-1", :href "#one", :role "tab", :data-toggle "tab"} "Events"]]
-     [:li [:a {:shape "rect", :id "tab-2", :href "#two", :role "tab", :data-toggle "tab"} "People"]]
-     [:li [:a {:shape "rect", :id "tab-2", :href "#three", :role "tab", :data-toggle "tab"} "Places"]]
-     [:li [:a {:shape "rect", :id "tab-3", :href "#four", :role "tab", :data-toggle "tab"} "Relationships"]]]))
+  [:ul {:class "nav nav-tabs", :role "tablist", :style "background-color: lightgrey;"}
+   [:li {:class "active"} [:a {:shape "rect", :id "tab-1", :href "#one", :role "tab", :data-toggle "tab"} "Events"]]
+   [:li [:a {:shape "rect", :id "tab-2", :href "#two", :role "tab", :data-toggle "tab"} "People"]]
+   [:li [:a {:shape "rect", :id "tab-2", :href "#three", :role "tab", :data-toggle "tab"} "Places"]]
+   [:li [:a {:shape "rect", :id "tab-3", :href "#four", :role "tab", :data-toggle "tab"} "Relationships"]]])
 
 (defn table-events []
   (list
@@ -696,7 +695,6 @@
        [:td "Seth_Ben_Adam"]]]]))
 
 (defn pageContent []
-  (pctabs)
   [:div {:class "tab-content"}
    [:div {:class "tab-pane active datascroll", :id "one"} (table-events)]
    [:div {:class "tab-pane datascroll", :id "two"} (table-people)]
@@ -716,6 +714,7 @@
          (menu/playmenu "index")
          [:div {:class "row", :id "contentRow"}
           [:div {:class "col-md-12"}
+           (pctabs)
            (pageContent)]]
          [:div {:class "row", :id "footerRow"}
           [:div {:class "col-md-6"} (snippets/statuspanel)]
