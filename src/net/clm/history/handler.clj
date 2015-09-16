@@ -32,7 +32,7 @@
 (defn -main
   "Main entry point for History of the World web app.
   Argument(s):
-  & port: port number of the ring server (defaults to 3000."
+  & port: port number of the ring server (defaults to 3000)."
       [& [port]]
       (let [port (Integer. (or port
                                (System/getenv "PORT")
