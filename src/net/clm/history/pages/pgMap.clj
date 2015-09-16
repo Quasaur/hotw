@@ -1,4 +1,6 @@
-(ns net.clm.history.pages.pgMap
+(ns ^{:author "Calvin L. Mitchell"
+      :doc "Google Maps page for History of the World."}
+    net.clm.history.pages.pgMap
     (:require [hiccup.core :as hcore]
       [hiccup.page :as hic]
       [net.clm.history.pages.snippets :as snippets]

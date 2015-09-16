@@ -1,4 +1,6 @@
-(ns net.clm.history.pages.pgChart
+(ns ^{:author "Calvin L. Mitchell"
+      :doc "SIMILE Timeline page for History of the World."}
+net.clm.history.pages.pgChart
   (:require [hiccup.core :as hcore]
             [hiccup.page :as hic]
             [net.clm.history.pages.snippets :as snippets]

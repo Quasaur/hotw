@@ -1,4 +1,6 @@
-(ns net.clm.history.pages.pgLearn
+(ns ^{:author "Calvin L. Mitchell"
+      :doc "Documentation page for History of the World."}
+    net.clm.history.pages.pgLearn
  (:require [hiccup.core :as hcore]
            [hiccup.page :as hic]
            [net.clm.history.pages.snippets :as snippets]

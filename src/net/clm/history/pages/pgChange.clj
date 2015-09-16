@@ -1,4 +1,6 @@
-(ns net.clm.history.pages.pgChange
+(ns ^{:author "Calvin L. Mitchell"
+      :doc "Changelog page for History of the World."}
+    net.clm.history.pages.pgChange
   (:require [hiccup.core :as hcore]
             [hiccup.page :as hic]
             [net.clm.history.pages.snippets :as snippets]

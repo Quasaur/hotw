@@ -1,4 +1,6 @@
-(ns net.clm.history.pages.snippets
+(ns ^{:author "Calvin L. Mitchell"
+      :doc "Hiccup snippets for all pages on History of the World."}
+    net.clm.history.pages.snippets
     (:require [hiccup.page :as hic]))
 
 (def CLMDEBUG 0)

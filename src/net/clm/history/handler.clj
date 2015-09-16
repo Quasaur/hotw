@@ -1,4 +1,6 @@
-(ns net.clm.history.handler
+(ns ^{:author "Calvin L. Mitchell"
+      :doc "Main Compojure handler for History of the World."}
+    net.clm.history.handler
   (:require [compojure.core :refer [defroutes GET]]
             [compojure.route :as route]
             [compojure.handler :as handler]

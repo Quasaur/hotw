@@ -4,7 +4,8 @@
             [net.clm.history.pages.snippets :as snippets]
             [net.clm.history.pages.menus :as menus]
             [net.clm.history.neolib :as neo]
-            [net.clm.history.pages.menus :as menus]))
+            [net.clm.history.pages.menus :as menus]
+            [net.clm.history.neolib :as nlib]))
 
 (defn pctabs []
   [:ul {:class "nav nav-tabs", :role "tablist", :style "background-color: lightgrey;"}

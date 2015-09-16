@@ -1,4 +1,6 @@
-(ns net.clm.history.pages.menus
+(ns ^{:author "Calvin L. Mitchell"
+      :doc "Bootstrap 3 responsive menus in Hiccup for History of the World."}
+net.clm.history.pages.menus
   (:require [hiccup.page :as hic]))
 
 (def liBrowse (list [:li [:a {:shape "rect", :href "/"} "Browse"]]))

@@ -1,4 +1,6 @@
-(ns net.clm.history.pages.pgAdd
+(ns ^{:author "Calvin L. Mitchell"
+      :doc "Visitors' Add Suggestions page for History of the World."}
+    net.clm.history.pages.pgAdd
     (:require [hiccup.core :as hcore]
       [hiccup.page :as hic]
       [net.clm.history.pages.snippets :as snippets]
