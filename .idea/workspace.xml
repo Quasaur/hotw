@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae1f30f5-978e-4496-8cc4-91fc2223994b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/handler.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/handler.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index.html" afterPath="$PROJECT_DIR$/doc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.handler.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.handler.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.pages.pgAdd.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.pages.pgAdd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.pages.pgChart.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.pages.pgChart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.pages.pgIndex.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.pages.pgIndex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.pages.pgMap.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.pages.pgMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/net.clm.history.pages.snippets.html" afterPath="$PROJECT_DIR$/doc/net.clm.history.pages.snippets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/clm/history/tablegen.clj" afterPath="$PROJECT_DIR$/src/net/clm/history/tablegen.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="History of the World.iws" />
@@ -43,11 +37,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handler.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/clm/history/handler.clj">
+      <file leaf-file-name="pgIndex.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#2125#7313#0" expanded="false" />
+                <element signature="e#7315#8834#0" expanded="false" />
+                <element signature="e#8836#10984#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tablegen.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/tablegen.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neolib.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/clm/history/neolib.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -93,9 +111,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/clojurewerkz/neocons/rest/test/basic_http_authentication_test.clj" />
         <option value="$PROJECT_DIR$/test/net/clm/history/neolib_test.clj" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/neolib.clj" />
-        <option value="$PROJECT_DIR$/src/net/clm/history/tablegen.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgSeek.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgMap.clj" />
@@ -105,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgAdd.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/pages/menus.clj" />
         <option value="$PROJECT_DIR$/src/net/clm/history/handler.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/tablegen.clj" />
+        <option value="$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
@@ -222,20 +240,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="History of the World" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="History-of-the-World" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -672,7 +676,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442382497174</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="v1.1.4: Regenerated doc folder with codox.&#10;">
+      <created>1442382785150</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1442382785150</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -718,7 +728,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v0.10.5:&#10; (1) added Add page.&#10; (2) fixed error with scripts.js, which had (for now) unnecessary references to Neo4j Events, People, Places &amp; Relationships tabs for upcoming Neo4j data conversion&#10; (3) split scripts into:&#10;    a. bsneo4jtabs to hols js script to control Neo4j Events, People, Places &amp; Relationships tab selection&#10;    b. neodatatables.js to to format the Neo4j tables using DataTables.&#10;" />
     <MESSAGE value="v0.10.6:&#10; (1) added Google Map page.&#10; (2) Change size of all iframes to a height of 700px;" />
     <MESSAGE value="v0.10.7:&#10; (1) Removed &quot;TEST Site&quot; phrase from all pages&#10; (2) Went ahead and moved Status Log Panel to snippets.clj until true logging code is added." />
     <MESSAGE value="v0.10.8:&#10; (1) Updated Chart page for Bootstrap 3.&#10; (2) Clearned up Footer for all pages.&#10; (3) Fixed height prob with status panel." />
@@ -743,7 +752,8 @@
     <MESSAGE value="v1.1.1: &#10;(1) added dependency for clojurewerkz/neocons&#10;(2) add ns neolib to handle neocons interactions&#10;(3) changed refs to menus.clj to say &quot;menus/&quot; instead of &quot;menu/&quot;&#10;" />
     <MESSAGE value="v1.1.2: &#10;(1) Updated neocons to 3.1.0-rc1&#10;(2) imported neocons test directory (now to just get the tests to run!).&#10;" />
     <MESSAGE value="v1.1.3: &#10;(1) Added successfully-tested neo4j db connection routine to neolib.clj&#10;(2) Started new ns tablegen to convert neo4j JSON data to HTML table.&#10;(3) Added docstring to all namespaces.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.1.3: &#10;(1) Added successfully-tested neo4j db connection routine to neolib.clj&#10;(2) Started new ns tablegen to convert neo4j JSON data to HTML table.&#10;(3) Added docstring to all namespaces.&#10;" />
+    <MESSAGE value="v1.1.4: Regenerated doc folder with codox.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.1.4: Regenerated doc folder with codox.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1028,30 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/neolib.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/clm/history/tablegen.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/snippets.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1118,9 +1104,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/clm/history/handler.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.0664207">
           <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/neolib.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/tablegen.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/clm/history/pages/pgIndex.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#2125#7313#0" expanded="false" />
+            <element signature="e#7315#8834#0" expanded="false" />
+            <element signature="e#8836#10984#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
