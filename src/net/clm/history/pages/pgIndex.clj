@@ -16,32 +16,17 @@
    [:li [:a {:shape "rect", :id "tab-3", :href "#four", :role "tab", :data-toggle "tab"} "Relationships"]]])
 
 (defn table-events-data []
-  (let [events-json (nlib/get-json-events)]
-    (tg/events-hiccup events-json)))
+  (let [events-nv (nlib/get-nvect-events)]
+    events-nv))
+
+
+(def tattrs {:table-attrs {:class "cel-border stripe" :id "tblEvents"}})
 
 (defn table-events
   "Create the Events Table for the History of the World Index/Browse Page from the Neo4j database.
   Argument(s): NONE"
   []
-  [:table {:class "cell-border stripe", :id "tblEvents"}
-   [:thead
-    [:tr
-
-     [:th {:colspan "4", :rowspan "1"}]
-     [:th {:colspan "2", :rowspan "1", :class "dt-head-center"} "Bible"]
-     [:th {:colspan "2", :rowspan "1", :class "dt-head-center"} "Gregorian"]
-     [:th {:colspan "1", :rowspan "1"}]]
-    [:tr
-     [:th {:colspan "1", :rowspan "1", :class "cid"} "ID"]
-     [:th {:colspan "1", :rowspan "1", :class "clabels"} "Labels"]
-     [:th {:colspan "1", :rowspan "1", :class "ccaption"} "Caption"]
-     [:th {:colspan "1", :rowspan "1", :class "cplace"} "Place"]
-     [:th {:colspan "1", :rowspan "1", :class "cbstart"} "Start"]
-     [:th {:colspan "1", :rowspan "1", :class "cbend"} "End"]
-     [:th {:colspan "1", :rowspan "1", :class "cgstart"} "Start"]
-     [:th {:colspan "1", :rowspan "1", :class "cgend"} "End"]
-     [:th {:colspan "1", :rowspan "1", :class "cnotes"} "Notes"]]]
-   [:tbody (table-events-data)]])
+  (tg/to-table1d (table-events-data) [0 "ID" 1 "Labels" 2 "Caption" 3 "Place" 4 "Bible Start" 5 "Bible End" 6 "Greg. Start" 7 "Gre. End" 8 "Notes"] tattrs))
 
 (defn table-people []
   [:table {:class "cell-border stripe", :id "tblPeople"}
